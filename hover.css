@@ -1,0 +1,27 @@
+/* CSS for hover effect on Sign Up button */
+.btn-signup:hover {
+    background-color: #45aaf2; /* Change background color on hover */
+    border-color: #45aaf2; /* Change border color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* CSS for password toggle icon */
+.password-input-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password i {
+    color: #888;
+}
+
+.toggle-password.active i {
+    color: #333;
+}
